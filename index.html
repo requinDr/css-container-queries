@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TP Container queries</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- page -->
+        <article>
+            <h2>CSS container queries</h2>
+            <p>Lorem ipsum dolor
+                sit amet consect
+                etur adipisicing
+            </p>
+
+            <!-- Largeur de box -->
+            <span id="width"></span>
+            <div class="box" id="box">
+                <div class="box-child">
+                    <h3>Box-child</h3>
+                    <p>Lorem ipsum dolor
+                        sit amet consect
+                        etur adipisicing
+                    </p>
+                </div>
+
+                <div class="box-child">
+                    <img src="https://pbs.twimg.com/media/E6FNar0WEAETz9t.jpg" alt="css" id="css">
+                    <img src="https://assets.stickpng.com/images/61d183263a856e0004c6334a.png" alt="sus" id="sus">
+                </div>
+            </div>
+        </article>
+
+        <!-- sidebar -->
+        <aside>
+            <div class="cat">
+                <h2>Astuce</h2>
+                <p>
+                    La propriété css <code>clamp</code> permet de définir une valeur
+                    minimale, préférée et maximale.<br>
+                    <code>font-size: clamp(1rem, 2vw, 2rem);</code>
+                </p>
+            </div>
+
+            <div class="cat">
+                <h2>Prérequis</h2>
+                <p>
+                    Chrome >= 106 (sept. 2022)<br>
+                    Edge >= 106 (oct. 2022)<br>
+                    Safari >= 16.0 (sept 2022)<br>
+                    Firefox >= 110 (février 2023)<br>                   
+                </p>
+            </div>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
