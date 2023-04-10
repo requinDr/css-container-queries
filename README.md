@@ -9,4 +9,4 @@ Objectif 2 :
 Faire en sorte que lorsque box fait moins de 400 px de largeur, les enfants se mettent en colonne
 
 Objectif 3 :  
-Faire en sorte qu’entre 665 px et 667 px, #css ne soit plus affiché et soit remplacé par #sus
+Faire en sorte que lorsque box fait entre 665 px et 667 px, #css ne soit plus affiché et soit remplacé par #sus
